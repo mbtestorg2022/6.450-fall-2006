@@ -51,11 +51,48 @@ Course Grade
 
 The final grade in the course is based upon our best assessment of your understanding of the material. This assessment is based on four noisy measurements: the problem sets, the mini-quizzes, the midterm, and the final. The different measurements have different noise levels, and the final grade will be thus a weighted average, roughly according to the following rule:
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Problem sets | 15% |
-| Quizzes | 50% (each quiz 25%) |
-| Final exam | 35% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Problem sets
+{{< tdclose >}}
+{{< tdopen >}}
+15%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Quizzes
+{{< tdclose >}}
+{{< tdopen >}}
+50% (each quiz 25%)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final exam
+{{< tdclose >}}
+{{< tdopen >}}
+35%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
   
 
@@ -94,30 +131,321 @@ Gives clear explanations of many standard linear algebra results.
 Calendar
 --------
 
-| LEC # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| 1 | Introduction: A layered view of digital communication |  |
-| 2 | Discrete source encoding |  |
-| 3 | Memory-less sources, prefix free codes, and entropy |  |
-| 4 | Entropy and asymptotic equipartition property |  |
-| 5 | Markov sources and Lempel-Ziv universal codes |  |
-| 6 | Quantization |  |
-| 7 | High rate quantizers and waveform encoding |  |
-| 8 | Measure, fourier series, and fourier transforms |  |
-| 9 | Discrete-time fourier transforms and sampling theorem | Quiz 1 taken 2 days after Ses #9 |
-| 10 | Degrees of freedom, orthonormal expansions, and aliasing |  |
-| 11 | Signal space, projection theorem, and modulation |  |
-| 12 | Nyquist theory, pulse amplitude modulation (PAM), quadrature amplitude modulation (QAM), and frequency translation |  |
-| 13 | Random processes |  |
-| 14 | Jointly Gaussian random vectors and processes and white Gaussian noise (WGN) |  |
-| 15 | Linear functionals and filtering of random processes |  |
-| 16 | Review; introduction to detection | Quiz 2 taken 2 days after Ses #16 |
-| 17 | Detection for random vectors and processes |  |
-| 18 | Theorem of irrelevance, M-ary detection, and coding |  |
-| 19 | Baseband detection and complex Gaussian processes |  |
-| 20 | Introduction of wireless communication |  |
-| 21 | Doppler spread, time spread, coherence time, and coherence frequency |  |
-| 22 | Discrete-time baseband models for wireless channels |  |
-| 23 | Detection for flat rayleigh fading and incoherent channels, and rake receivers |  |
-| 24 | Case study — code division multiple access (CDMA) |  |
-| 25 | Review | Final exam taken 7 days after Ses #25
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction: A layered view of digital communication
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Discrete source encoding
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Memory-less sources, prefix free codes, and entropy
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Entropy and asymptotic equipartition property
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Markov sources and Lempel-Ziv universal codes
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Quantization
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+High rate quantizers and waveform encoding
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Measure, fourier series, and fourier transforms
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Discrete-time fourier transforms and sampling theorem
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1 taken 2 days after Ses #9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Degrees of freedom, orthonormal expansions, and aliasing
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Signal space, projection theorem, and modulation
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Nyquist theory, pulse amplitude modulation (PAM), quadrature amplitude modulation (QAM), and frequency translation
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Random processes
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Jointly Gaussian random vectors and processes and white Gaussian noise (WGN)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Linear functionals and filtering of random processes
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Review; introduction to detection
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2 taken 2 days after Ses #16
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Detection for random vectors and processes
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Theorem of irrelevance, M-ary detection, and coding
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Baseband detection and complex Gaussian processes
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction of wireless communication
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Doppler spread, time spread, coherence time, and coherence frequency
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Discrete-time baseband models for wireless channels
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Detection for flat rayleigh fading and incoherent channels, and rake receivers
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Case study — code division multiple access (CDMA)
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Review
+{{< tdclose >}}
+{{< tdopen >}}
+Final exam taken 7 days after Ses #25
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
